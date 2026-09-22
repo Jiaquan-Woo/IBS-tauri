@@ -1,0 +1,10 @@
+D:\CS\JS_relate\IBS\ibs-tauri\src-tauri\target\release\deps\webview2_com-5104a58e1f9c37f0.d: C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\webview2-com-0.38.2\src\lib.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\webview2-com-0.38.2\src\callback.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\webview2-com-0.38.2\src\options.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\webview2-com-0.38.2\src\pwstr.rs
+
+D:\CS\JS_relate\IBS\ibs-tauri\src-tauri\target\release\deps\libwebview2_com-5104a58e1f9c37f0.rlib: C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\webview2-com-0.38.2\src\lib.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\webview2-com-0.38.2\src\callback.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\webview2-com-0.38.2\src\options.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\webview2-com-0.38.2\src\pwstr.rs
+
+D:\CS\JS_relate\IBS\ibs-tauri\src-tauri\target\release\deps\libwebview2_com-5104a58e1f9c37f0.rmeta: C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\webview2-com-0.38.2\src\lib.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\webview2-com-0.38.2\src\callback.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\webview2-com-0.38.2\src\options.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\webview2-com-0.38.2\src\pwstr.rs
+
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\webview2-com-0.38.2\src\lib.rs:
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\webview2-com-0.38.2\src\callback.rs:
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\webview2-com-0.38.2\src\options.rs:
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\webview2-com-0.38.2\src\pwstr.rs:

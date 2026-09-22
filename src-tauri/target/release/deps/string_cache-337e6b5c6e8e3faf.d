@@ -1,0 +1,11 @@
+D:\CS\JS_relate\IBS\ibs-tauri\src-tauri\target\release\deps\string_cache-337e6b5c6e8e3faf.d: C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\string_cache-0.9.0\src\lib.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\string_cache-0.9.0\src\atom.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\string_cache-0.9.0\src\dynamic_set.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\string_cache-0.9.0\src\static_sets.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\string_cache-0.9.0\src\trivial_impls.rs
+
+D:\CS\JS_relate\IBS\ibs-tauri\src-tauri\target\release\deps\libstring_cache-337e6b5c6e8e3faf.rlib: C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\string_cache-0.9.0\src\lib.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\string_cache-0.9.0\src\atom.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\string_cache-0.9.0\src\dynamic_set.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\string_cache-0.9.0\src\static_sets.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\string_cache-0.9.0\src\trivial_impls.rs
+
+D:\CS\JS_relate\IBS\ibs-tauri\src-tauri\target\release\deps\libstring_cache-337e6b5c6e8e3faf.rmeta: C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\string_cache-0.9.0\src\lib.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\string_cache-0.9.0\src\atom.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\string_cache-0.9.0\src\dynamic_set.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\string_cache-0.9.0\src\static_sets.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\string_cache-0.9.0\src\trivial_impls.rs
+
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\string_cache-0.9.0\src\lib.rs:
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\string_cache-0.9.0\src\atom.rs:
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\string_cache-0.9.0\src\dynamic_set.rs:
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\string_cache-0.9.0\src\static_sets.rs:
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\string_cache-0.9.0\src\trivial_impls.rs:

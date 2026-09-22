@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protein Structure Visualizer</title>
+  <script type="module" crossorigin src="/assets/index-KSapQLN8.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/ibs-D3I6D3tB.js">
+  <link rel="modulepreload" crossorigin href="/assets/xlsx-BUW7exb-.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-DHIFI6FU.css">
+</head>
+<body>
+    <header class="title-bar">
+        <span class="app-title">Protein Structure Visualizer</span>
+        <div class="title-bar-right">
+            <span id="selectionInfo"></span>
+        </div>
+    </header>
+
+    <nav class="ribbon-tabs">
+        <button class="ribbon-tab active" data-tab="file">File</button>
+        <button class="ribbon-tab" data-tab="home">Home</button>
+        <button class="ribbon-tab" data-tab="insert">Insert</button>
+        <button class="ribbon-tab" data-tab="export">Export</button>
+    </nav>
+
+    <div class="ribbon-panels">
+        <div class="ribbon-panel active" id="panel-file">
+            <div class="ribbon-group">
+                <button class="ribbon-btn ribbon-btn-large" id="browseBtn">
+                    <span class="ribbon-icon">&#128194;</span>
+                    <span class="ribbon-label">Open</span>
+                </button>
+                <button class="ribbon-btn ribbon-btn-large danger" id="clearBtn">
+                    <span class="ribbon-icon">&#128465;</span>
+                    <span class="ribbon-label">Clear</span>
+                </button>
+                <input type="file" id="fileInput" accept=".csv,.tsv,.xlsx,.xls">
+            </div>
+            <div class="ribbon-group" id="fileInfoGroup" style="display:none;">
+                <div class="file-info-inline">
+                    <span class="badge" id="fileBadge"></span>
+                    <span id="fileName"></span>
+                    <span id="rowCount"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="ribbon-panel" id="panel-insert">
+            <div class="ribbon-group">
+                <label class="ribbon-label-s">Shapes</label>
+                <button class="ribbon-btn" id="insertTextBtn" title="Insert Text">&#128392; Text</button>
+                <button class="ribbon-btn" id="insertRectBtn" title="Insert Rectangle">&#9632; Rect</button>
+                <button class="ribbon-btn" id="insertCircleBtn" title="Insert Circle">&#9679; Circle</button>
+                <button class="ribbon-btn" id="insertLineBtn" title="Insert Line">&#10148; Line</button>
+            </div>
+            <div class="ribbon-sep"></div>
+            <div class="ribbon-group">
+                <label class="ribbon-label-s">More Shapes</label>
+                <button class="ribbon-btn" id="insertMarkerBtn" title="Insert Marker">&#9873; Marker</button>
+                <button class="ribbon-btn" id="insertBracketBtn" title="Insert Bracket">&#10092; Bracket</button>
+            </div>
+        </div>
+        <div class="ribbon-panel" id="panel-home">
+            <div class="ribbon-group">
+                <button class="ribbon-btn" id="undoBtn" title="Undo (Ctrl+Z)">&#8617; Undo</button>
+                <button class="ribbon-btn" id="redoBtn" title="Redo (Ctrl+Y)">&#8618; Redo</button>
+            </div>
+            <div class="ribbon-sep"></div>
+            <div class="ribbon-group">
+                <button class="ribbon-btn danger" id="deleteSelectedBtn" disabled title="Delete">&#128465; Delete</button>
+                <button class="ribbon-btn" id="copyBtn" title="Copy">&#128203; Copy</button>
+                <button class="ribbon-btn" id="bringFrontBtn" title="Bring to Front">&#8593; Front</button>
+                <button class="ribbon-btn" id="sendBackBtn" title="Send to Back">&#8595; Back</button>
+            </div>
+            <div class="ribbon-sep"></div>
+            <div class="ribbon-group">
+                <button class="ribbon-btn" id="zoomOutBtn">&#8722;</button>
+                <span class="ribbon-zoom" id="zoomLevel">100%</span>
+                <button class="ribbon-btn" id="zoomInBtn">+</button>
+                <button class="ribbon-btn" id="zoomFitBtn">Fit</button>
+            </div>
+        </div>
+
+        <div class="ribbon-panel" id="panel-export">
+            <div class="ribbon-group">
+                <label class="ribbon-label-s">Format</label>
+                <select id="formatSelect">
+                    <option value="svg">SVG</option>
+                    <option value="png">PNG</option>
+                    <option value="jpg">JPG</option>
+                </select>
+            </div>
+            <div class="ribbon-sep"></div>
+            <div class="ribbon-group">
+                <label class="ribbon-label-s">DPI</label>
+                <label class="radio-label"><input type="radio" name="resolution" value="150" checked> 150</label>
+                <label class="radio-label"><input type="radio" name="resolution" value="300"> 300</label>
+                <label class="radio-label"><input type="radio" name="resolution" value="600"> 600</label>
+            </div>
+            <div class="ribbon-sep"></div>
+            <div class="ribbon-group">
+                <button class="ribbon-btn primary" id="downloadBtn" disabled>&#11015; Export</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-layout">
+        <main class="canvas-area">
+            <div id="container"></div>
+            <div class="empty-state" id="emptyState">
+                <div class="empty-icon">&#129516;</div>
+                <p class="empty-title">Protein Structure Visualizer</p>
+                <p class="empty-sub">Open a CSV, TSV, or Excel file to visualize protein domains and sites</p>
+                <button class="empty-open-btn" id="emptyOpenBtn">Open File</button>
+                <p class="empty-hint">Supports .csv, .tsv, .xlsx, .xls</p>
+            </div>
+        </main>
+        <aside class="panel-right" id="propertiesPanel">
+            <div class="panel-right-header">Properties</div>
+            <div id="propertyPanel">
+                <div class="no-selection">
+                    <p>Click an element to edit</p>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <div class="status-bar">
+        <span id="statusBar">Ready</span>
+        <span class="right">
+            <span id="statusElements">0 elements</span>
+            <span id="statusZoom">100%</span>
+        </span>
+    </div>
+    <div class="toast" id="toast"></div>
+
+    <div class="modal-overlay" id="typeModal">
+        <div class="modal-box">
+            <h3>Select Structure Type</h3>
+            <p>Choose the type of backbone to draw:</p>
+            <div class="modal-actions">
+                <button class="ribbon-btn ribbon-btn-large" id="chooseProteinBtn">
+                    <span class="ribbon-icon">&#9632;</span>
+                    <span class="ribbon-label">Protein</span>
+                </button>
+                <button class="ribbon-btn ribbon-btn-large" id="chooseNucleotideBtn">
+                    <span class="ribbon-icon">&#9472;</span>
+                    <span class="ribbon-label">Nucleotide</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

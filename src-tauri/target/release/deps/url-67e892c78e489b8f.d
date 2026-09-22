@@ -1,0 +1,13 @@
+D:\CS\JS_relate\IBS\ibs-tauri\src-tauri\target\release\deps\url-67e892c78e489b8f.d: C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\lib.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\host.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\origin.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\parser.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\path_segments.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\slicing.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\quirks.rs
+
+D:\CS\JS_relate\IBS\ibs-tauri\src-tauri\target\release\deps\liburl-67e892c78e489b8f.rlib: C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\lib.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\host.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\origin.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\parser.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\path_segments.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\slicing.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\quirks.rs
+
+D:\CS\JS_relate\IBS\ibs-tauri\src-tauri\target\release\deps\liburl-67e892c78e489b8f.rmeta: C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\lib.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\host.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\origin.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\parser.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\path_segments.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\slicing.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\quirks.rs
+
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\lib.rs:
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\host.rs:
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\origin.rs:
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\parser.rs:
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\path_segments.rs:
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\slicing.rs:
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\url-2.5.8\src\quirks.rs:

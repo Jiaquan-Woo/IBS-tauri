@@ -1,0 +1,11 @@
+D:\CS\JS_relate\IBS\ibs-tauri\src-tauri\target\release\deps\cargo_metadata-cefbbe82de962ca9.d: C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\cargo_metadata-0.19.2\src\lib.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\cargo_metadata-0.19.2\src\dependency.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\cargo_metadata-0.19.2\src\diagnostic.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\cargo_metadata-0.19.2\src\errors.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\cargo_metadata-0.19.2\src\messages.rs
+
+D:\CS\JS_relate\IBS\ibs-tauri\src-tauri\target\release\deps\libcargo_metadata-cefbbe82de962ca9.rlib: C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\cargo_metadata-0.19.2\src\lib.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\cargo_metadata-0.19.2\src\dependency.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\cargo_metadata-0.19.2\src\diagnostic.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\cargo_metadata-0.19.2\src\errors.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\cargo_metadata-0.19.2\src\messages.rs
+
+D:\CS\JS_relate\IBS\ibs-tauri\src-tauri\target\release\deps\libcargo_metadata-cefbbe82de962ca9.rmeta: C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\cargo_metadata-0.19.2\src\lib.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\cargo_metadata-0.19.2\src\dependency.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\cargo_metadata-0.19.2\src\diagnostic.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\cargo_metadata-0.19.2\src\errors.rs C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\cargo_metadata-0.19.2\src\messages.rs
+
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\cargo_metadata-0.19.2\src\lib.rs:
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\cargo_metadata-0.19.2\src\dependency.rs:
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\cargo_metadata-0.19.2\src\diagnostic.rs:
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\cargo_metadata-0.19.2\src\errors.rs:
+C:\Users\jqwoo\.cargo\registry\src\rsproxy.cn-e3de039b2554c837\cargo_metadata-0.19.2\src\messages.rs:
